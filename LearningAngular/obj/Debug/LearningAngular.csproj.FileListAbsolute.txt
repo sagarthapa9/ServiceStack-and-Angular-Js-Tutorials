@@ -1,0 +1,6 @@
+D:\MVC\LearningMVC\LearningAngular\bin\LearningAngular.dll.config
+D:\MVC\LearningMVC\LearningAngular\bin\LearningAngular.dll
+D:\MVC\LearningMVC\LearningAngular\bin\LearningAngular.pdb
+D:\MVC\LearningMVC\LearningAngular\obj\Debug\LearningAngular.csprojResolveAssemblyReference.cache
+D:\MVC\LearningMVC\LearningAngular\obj\Debug\LearningAngular.dll
+D:\MVC\LearningMVC\LearningAngular\obj\Debug\LearningAngular.pdb

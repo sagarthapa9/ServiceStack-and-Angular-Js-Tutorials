@@ -1,0 +1,6 @@
+D:\MVC\LearningMVC\LearningWebServices\bin\LearningWebServices.dll.config
+D:\MVC\LearningMVC\LearningWebServices\bin\LearningWebServices.dll
+D:\MVC\LearningMVC\LearningWebServices\bin\LearningWebServices.pdb
+D:\MVC\LearningMVC\LearningWebServices\obj\Debug\LearningWebServices.csprojResolveAssemblyReference.cache
+D:\MVC\LearningMVC\LearningWebServices\obj\Debug\LearningWebServices.dll
+D:\MVC\LearningMVC\LearningWebServices\obj\Debug\LearningWebServices.pdb

@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="LearnAngJs">
+<head>
+    <title></title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" type="text/css" href="Style/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="Style/app.css" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-inner">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Groups</a></li>
+                        <li><a href="#">Agendas</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="container buffer-top20">
+            <div ng-controller="EventController">
+                <img ng-src="{{event.imageUrl}}" alt="{{event.name}}"/>
+                <div class="row">
+                    <div class="span1">
+                        <h1>{{event.name|uppercase}}</h1>
+                    </div>
+
+              
+                <div class="row">
+                    <div class="spann2">
+                        <div><strong>Date</strong>{{event.date}}</div>
+                        <div><strong>Time</strong>{{event.time}}</div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="spann3">
+                        <address>
+                            <div><strong>Address</strong></div>
+                            {{event.location.address}},
+                            {{event.location.city}},
+                            {{event.location.county}}
+                            
+                        </address>
+                    </div>
+                <hr/>
+                <ul>
+                    <li ng-repeat="session in event.sessions">
+                        <div>
+                            <h4>{{session.name}}</h4>
+                            <h6><strong>Duration:</strong>{{session.Duration}}</h6>
+                            <h6><strong>Level:</strong>{{session.Level}}</h6>
+                            <h6><strong>Price:</strong>{{session.Price|currency:"£"}}</h6>
+                            <input type="button" ng-click="GetVote(session)" value="Vote" />
+                            <p>{{session.totalVote}}</p>
+                        </div>
+                    </li>
+                </ul>
+                   
+                </div>
+            </div>
+        </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="script/ui-bootstrap-0.10.0.min.js"></script>
+    <script type="text/javascript" src="script/ui-bootstrap-0.10.0.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/Controller/EventController.js"></script>
+</body>
+</html>

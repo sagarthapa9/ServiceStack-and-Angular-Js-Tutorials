@@ -1,0 +1,14 @@
+D:\MVC\LearningMVC\LearningWebServices\bin\LearningWebServices.dll.config
+D:\MVC\LearningMVC\LearningWebServices\bin\LearningWebServices.dll
+D:\MVC\LearningMVC\LearningWebServices\bin\LearningWebServices.pdb
+D:\MVC\LearningMVC\LearningWebServices\bin\ServiceStack.Client.dll
+D:\MVC\LearningMVC\LearningWebServices\bin\ServiceStack.Common.dll
+D:\MVC\LearningMVC\LearningWebServices\bin\ServiceStack.dll
+D:\MVC\LearningMVC\LearningWebServices\bin\ServiceStack.Interfaces.dll
+D:\MVC\LearningMVC\LearningWebServices\bin\ServiceStack.Text.dll
+D:\MVC\LearningMVC\LearningWebServices\bin\ServiceStack.xml
+D:\MVC\LearningMVC\LearningWebServices\bin\ServiceStack.Client.xml
+D:\MVC\LearningMVC\LearningWebServices\bin\ServiceStack.Common.xml
+D:\MVC\LearningMVC\LearningWebServices\bin\ServiceStack.Text.xml
+D:\MVC\LearningMVC\LearningWebServices\obj\Debug\LearningWebServices.dll
+D:\MVC\LearningMVC\LearningWebServices\obj\Debug\LearningWebServices.pdb
