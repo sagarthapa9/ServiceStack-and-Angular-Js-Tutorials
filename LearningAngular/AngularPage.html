@@ -48,8 +48,19 @@
                         </address>
                     </div>
                 <hr/>
+                <h3>Classes Available:</h3>
+                <select ng-model="sortorder" class="input-small">
+                    <option selected value="name">Name</option>
+                    <option value="-totalVote">Vote</option>
+                </select>
+                <select ng-model ="query" class="input-medium">
+                    <option selected value="">All</option>
+                    <option selected value="Beginners">Beginners</option>
+                    <option selected value="Intermidiate">Intermidiate</option>
+                    <option selected value="Advance">Advance</option>
+                </select>
                 <ul>
-                    <li ng-repeat="session in event.sessions">
+                    <li ng-repeat="session in event.sessions | orderBy:sortorder |filter:query">
                         <div>
                             <h4>{{session.name}}</h4>
                             <h6><strong>Duration:</strong>{{session.Duration}}</h6>
