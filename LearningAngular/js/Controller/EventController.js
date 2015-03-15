@@ -16,25 +16,25 @@ LearnAngJs.controller('EventController',
                  city: 'Thames',
                  County:'Oxfordshire'
              },
-             imageUrl: '/Img/cdnLogo.jpg',
+             imageUrl: 'D:\MVC\LearningMVC\LearningAngular\Img\cdnLogo.jpg',
              sessions:[
                   {
                       name: 'Beginners',
-                      Duration: '2 Hours',
+                      duration:1,
                       Level: 1,
                       Price:25,
                       totalVote:0
                   },
                   {
                        name:'Intermidiate',
-                       Duration: '4 Hours',
-                       Level: 2,
+                       duration:2,
+                       Level: 'Beginners to Intermediate',
                        Price: 50,
                        totalVote:0
                    },
                   {
                       name:'Advance',
-                      Duration: '10 Hours',
+                      duration:3,
                       Level: 3,
                       Price: 100,
                       totalVote: 0

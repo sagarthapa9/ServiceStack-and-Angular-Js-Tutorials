@@ -68,7 +68,10 @@
     <Content Include="AngularPage.html" />
     <Content Include="Img\cdnLogo.jpg" />
     <Content Include="js\app.js" />
+    <Content Include="js\Controller\EditEventController.js" />
     <Content Include="js\Controller\EventController.js" />
+    <Content Include="js\Filters.js" />
+    <Content Include="NewEvent.html" />
     <Content Include="script\angular.js" />
     <Content Include="script\angular.min.js" />
     <Content Include="script\ui-bootstrap-0.10.0.js" />

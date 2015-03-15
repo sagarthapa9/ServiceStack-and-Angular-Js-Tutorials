@@ -14,7 +14,7 @@
             <div class="container">
                 <div class="navbar-inner">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">Event</a></li>
+                        <li><a href="/NewEvent.html">Create Event</a></li>
                         <li><a href="#">Groups</a></li>
                         <li><a href="#">Agendas</a></li>
                     </ul>
@@ -33,19 +33,21 @@
               
                 <div class="row">
                     <div class="spann2">
-                        <div><strong>Date</strong>{{event.date}}</div>
-                        <div><strong>Time</strong>{{event.time}}</div>
+                        <div><strong>Date:</strong>{{event.date}}</div>
+                        <div><strong>Time:</strong>{{event.time}}</div>
                     </div>
-                    </div>
-                    </div>
+                  
+                  
                     <div class="spann3">
                         <address>
-                            <div><strong>Address</strong></div>
-                            {{event.location.address}},
-                            {{event.location.city}},
-                            {{event.location.county}}
-                            
+                            <div>
+                                <strong>Address:</strong>
+                                {{event.location.address}},
+                                {{event.location.city}},
+                                {{event.location.County}}
+                            </div>
                         </address>
+                    </div>
                     </div>
                 <hr/>
                 <h3>Classes Available:</h3>
@@ -53,7 +55,7 @@
                     <option selected value="name">Name</option>
                     <option value="-totalVote">Vote</option>
                 </select>
-                <select ng-model ="query" class="input-medium">
+                <select ng-model ="query.name" class="input-medium">
                     <option selected value="">All</option>
                     <option selected value="Beginners">Beginners</option>
                     <option selected value="Intermidiate">Intermidiate</option>
@@ -63,7 +65,7 @@
                     <li ng-repeat="session in event.sessions | orderBy:sortorder |filter:query">
                         <div>
                             <h4>{{session.name}}</h4>
-                            <h6><strong>Duration:</strong>{{session.Duration}}</h6>
+                            <h6><strong>Duration:</strong>{{session.duration | duration}}</h6>
                             <h6><strong>Level:</strong>{{session.Level}}</h6>
                             <h6><strong>Price:</strong>{{session.Price|currency:"£"}}</h6>
                             <input type="button" ng-click="GetVote(session)" value="Vote" />
@@ -83,5 +85,7 @@
     <script type="text/javascript" src="script/angular.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/Controller/EventController.js"></script>
+    <script type="text/javascript" src="js/Controller/EditEventController.js"></script>
+    <script type="text/javascript" src="js/Filters.js"></script>
 </body>
 </html>
