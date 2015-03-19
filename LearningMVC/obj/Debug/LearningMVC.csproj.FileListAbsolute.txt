@@ -56,3 +56,4 @@ D:\MVC\LearningMVC\LearningMVC\bin\Microsoft.Owin.Security.Twitter.xml
 D:\MVC\LearningMVC\LearningMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\MVC\LearningMVC\LearningMVC\obj\Debug\LearningMVC.dll
 D:\MVC\LearningMVC\LearningMVC\obj\Debug\LearningMVC.pdb
+D:\MVC\LearningMVC\LearningMVC\obj\Debug\LearningMVC.csprojResolveAssemblyReference.cache

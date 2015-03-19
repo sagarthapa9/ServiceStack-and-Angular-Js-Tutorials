@@ -16,3 +16,4 @@ D:\MVC\LearningMVC\LearningServiceStack\bin\ServiceStack.Redis.xml
 D:\MVC\LearningMVC\LearningServiceStack\bin\ServiceStack.Text.xml
 D:\MVC\LearningMVC\LearningServiceStack\obj\Debug\LearningServiceStack.dll
 D:\MVC\LearningMVC\LearningServiceStack\obj\Debug\LearningServiceStack.pdb
+D:\MVC\LearningMVC\LearningServiceStack\obj\Debug\LearningServiceStack.csprojResolveAssemblyReference.cache
